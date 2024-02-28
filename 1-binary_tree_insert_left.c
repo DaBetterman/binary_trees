@@ -14,7 +14,7 @@ binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value)
 
 	if (parent == NULL)
 	{
-		perror("Parent is NULL");
+		// perror("Parent is NULL");
 		return (NULL);
 	}
 
@@ -22,7 +22,7 @@ binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value)
 
 	if (new_node == NULL)
 	{
-		perror("malloc");
+		// perror("malloc");
 		return (NULL);
 	}
 	new_node->n = value;
